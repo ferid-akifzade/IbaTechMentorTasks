@@ -37,7 +37,8 @@ public class Calculator {
     public static String calculate(String x, String y, String operation) {
         if (x.isEmpty() || y.isEmpty() || operation.isEmpty())
             return "Please fill all fields";
-
+        if (!Parser.isNumeric(x, y))
+            return "Only numbers allowed";
         switch (operation) {
             case "+":
                 return Calculator.add(x, y);

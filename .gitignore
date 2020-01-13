@@ -1,2 +1,5 @@
 # Project exclude paths
+.idea
 /task1/target/
+/.idea/
+/task2/target/

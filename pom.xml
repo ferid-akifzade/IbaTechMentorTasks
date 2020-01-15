@@ -35,7 +35,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <mainClass>main.MainApp</mainClass>
+                    <mainClass>org.MainApp</mainClass>
                 </configuration>
             </plugin>
         </plugins>

@@ -1,4 +1,4 @@
-package main;
+package org;
 
 public class Calculator {
     private static Double lastResult = null;

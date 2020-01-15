@@ -1,4 +1,4 @@
-package main;
+package org;
 
 public class Parser {
     private Parser() {
